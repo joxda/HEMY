@@ -14,5 +14,5 @@ jobs:
       - uses: tgymnich/fork-sync@v1.8
         with:
           owner: joxda
-          base: master
+          base: main
           head: master
