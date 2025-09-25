@@ -54,25 +54,25 @@
 #define TIME_LOCATION_SOURCE_FALLBACK        TEENSY
 
 // Axis1 RA/Azm step/dir driver
-#define AXIS1_ENABLE_PIN        42//24
+#define AXIS1_ENABLE_PIN        24
 #define AXIS1_M0_PIN            11               // SPI MOSI
 #define AXIS1_M1_PIN            13               // SPI SCK
-#define AXIS1_M2_PIN            43//10               // SPI CS (UART TX)
+#define AXIS1_M2_PIN            10               // SPI CS (UART TX)
 #define AXIS1_M3_PIN            12               // SPI MISO (UART RX)
-#define AXIS1_STEP_PIN          40//22
-#define AXIS1_DIR_PIN           41//25
-#define AXIS1_FAULT_PIN         AXIS2_M3_PIN     // SPI MISO
+#define AXIS1_STEP_PIN          22
+#define AXIS1_DIR_PIN           25
+#define AXIS1_FAULT_PIN         AXIS1_M3_PIN     // SPI MISO
 #define AXIS1_DRIVER_INTPOL     ON               // use interpolation if available
 
 // Axis2 Dec/Alt step/dir driver
-#define AXIS2_ENABLE_PIN        24//42
+#define AXIS2_ENABLE_PIN        42
 #define AXIS2_M0_PIN            11               // SPI MOSI
 #define AXIS2_M1_PIN            13               // SPI SCK
-#define AXIS2_M2_PIN            10//43               // SPI CS (UART TX)
+#define AXIS2_M2_PIN            43               // SPI CS (UART TX)
 #define AXIS2_M3_PIN            12               // SPI MISO (UART RX)
-#define AXIS2_STEP_PIN          22//40
-#define AXIS2_DIR_PIN           25//41
-#define AXIS2_FAULT_PIN         AXIS1_M3_PIN
+#define AXIS2_STEP_PIN          40
+#define AXIS2_DIR_PIN           41
+#define AXIS2_FAULT_PIN         AXIS2_M3_PIN
 #define AXIS2_DRIVER_INTPOL     ON               // use interpolation if available
 
 #define ADDON_GPIO0_PIN         36               // ESP8266 GPIO0
