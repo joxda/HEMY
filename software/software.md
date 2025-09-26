@@ -18,7 +18,7 @@ You'll next need to install libraries to support some of the devices you'll be u
 ## Download the OnStepX Code
 Browse to https://github.com/hjd1964/OnStepX to download the OnStepX code.  As of this writing (15 Feb 25), the latest release published is 10.24c, and you must use at least version 10.24i.  If there's a release more recent than 10.24i on the Releases page, you can download and use that.  Otherwise, click the green **Code** button to download a `.zip` file of the repository.  Unzip, and rename its folder to `OnStepX` (it will likely default to `OnStepX-main`).
 
-Also, download the [Config.h](Config.h) file from this repository.  Place it in the `OnStepX` folder, overwriting the copy that's already there.
+Also, download the [Config.h](https://github.com/polvinc/HEMY/blob/main/software/v2.0/OnStepX/Config.h) file from this repository.  Place it in the `OnStepX` folder, overwriting the copy that's already there.
 
 ## Flash the Firmware
 You'll need to prepare your hardware.  Install the Teensy MicroMod onto the main board and secure it in place with an M3x6 screw.  Connect the board to 12-24V DC power.  Plug in a USB cable from your computer to the board.  Turn on the power switch on the board.  The white LED on the board should turn on, and after a moment, the blue LED on the Teensy should also turn on.  The Arduino IDE should recognize that a `Teensy MicroMod` is connected.
