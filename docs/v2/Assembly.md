@@ -343,6 +343,8 @@ ___
 **Instructions:**  
 Position the passthrough PCB onto the dovetail (A09) and secure the 3D-printed cover (B01) as shown.
 
+Caution : The wires going to the dovetail and the small PCB inside it will change the impedance of the USB line.
+Once the dovetail is connected, the USB on the main board will no longer work.
 ___
 
 ### 🔧 Step 12: Mount Dovetail on DEC Reducer
